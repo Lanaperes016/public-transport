@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: solid red 1px; */
+}
+
+.cabecalho {
+    background-color: #f5f5f5;
+    color: #0cc0df;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  5px 0;
+    font-family: 'Nanum Brush Script', cursive;
+
+}
+
+.cabecalho-imagem{
+    width: 13%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 100px;
+    font-size: 24px;
+}
+
+
+.inicio-imagem{
+    width: 23%;
+}
+
+.inicio{
+    background-color: #f5f5f5;
+    color: #0cc0df;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    padding: 50px 0;
+}
+
+.inicio-div-conteudo{
+    width: 35%;
+}
+
+.inicio-titulo{
+    padding: 70px 0;
+    font-family: 'barrio', cursive;
+    font-size: 40px;
+    color: #0cc0df;
+
+}
+
+
+.inicio-texto-um{
+    font-family: 'barrio', cursive;
+    font-size: 40px;
+    color: #b07418;
+   
+}
+
+
+.açai-div{ 
+ text-align: center;
+}
+
+.açai-titulo{ 
+    text-align: center;
+    padding: 70px 0;
+}
+ .açai-todos{ 
+    display: grid; 
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    background-color: #0ca524;
+    display: flex;
+    padding: 50px 0;
+    width: 100%
+ }
+
+.rodape{ 
+    background-color: #0cc0df;
+    text-align: right;
+
+}
+
+.rodape-imagem{ 
+    height: 25px;
+    padding: 3px 0;
+}
+.rodape-titulo{ 
+    text-align: center;
+    font-family: 'fredoka one' , cursive;
+    color: #f5f5f5;
+    font-size: 20px;
+}
